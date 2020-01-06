@@ -12,7 +12,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableZuulProxy
-@ComponentScan({"filters"})
 public class ApiGatewayImageService {
 
     public static void main(String[] args) {

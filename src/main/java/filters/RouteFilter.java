@@ -1,6 +1,8 @@
 package filters;
 
 import com.netflix.zuul.ZuulFilter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.zuul.filters.ProxyRequestHelper;
 
 public class RouteFilter extends ZuulFilter {
 
